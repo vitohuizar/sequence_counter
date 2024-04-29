@@ -3,8 +3,8 @@
 # SW Build 4126759 on Thu Feb  8 23:53:51 MST 2024
 # IP Build 4126054 on Fri Feb  9 11:39:09 MST 2024
 # SharedData Build 4115275 on Tue Jan 30 00:40:57 MST 2024
-# Start of session at: Mon Apr 29 15:05:06 2024
-# Process ID: 28536
+# Start of session at: Mon Apr 29 15:29:39 2024
+# Process ID: 29272
 # Current directory: C:/Users/hvito/fun/vivado/sequence_counter/sequence_counter/sequence_counter.runs/synth_1
 # Command line: vivado.exe -log counter.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source counter.tcl
 # Log file: C:/Users/hvito/fun/vivado/sequence_counter/sequence_counter/sequence_counter.runs/synth_1/counter.vds
