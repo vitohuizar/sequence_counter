@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2023.2.2 (64-bit)
+# SW Build 4126759 on Thu Feb  8 23:53:51 MST 2024
+# IP Build 4126054 on Fri Feb  9 11:39:09 MST 2024
+# SharedData Build 4115275 on Tue Jan 30 00:40:57 MST 2024
+# Start of session at: Mon Apr 29 14:59:33 2024
+# Process ID: 45608
+# Current directory: C:/Users/hvito/fun/vivado/sequence_counter/sequence_counter
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent38684 C:\Users\hvito\fun\vivado\sequence_counter\sequence_counter\sequence_counter.xpr
+# Log file: C:/Users/hvito/fun/vivado/sequence_counter/sequence_counter/vivado.log
+# Journal file: C:/Users/hvito/fun/vivado/sequence_counter/sequence_counter\vivado.jou
+# Running On: ANDROMEDA, OS: Windows, CPU Frequency: 2112 MHz, CPU Physical cores: 12, Host memory: 16830 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/hvito/fun/vivado/sequence_counter/sequence_counter/sequence_counter.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_simulation
+launch_simulation
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_simulation
+source tff_testbench.tcl
